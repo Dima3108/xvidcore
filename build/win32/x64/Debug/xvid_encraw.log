@@ -1,0 +1,24 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (libxvidcore_static.vcxproj, libxvidcore.vcxproj, xvid_bench.vcxproj, xvid_decraw_static.vcxproj, xvid_decraw.vcxproj, xvid_encraw_static.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+cl : командная строка warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  xvid_encraw.c
+Q:\GITHub\xvidcore\examples\xvid_encraw.c(1977,18): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+Q:\GITHub\xvidcore\examples\xvid_encraw.c(1977,18): message : рекомендуется использовать "%lld" в строке форматирования
+Q:\GITHub\xvidcore\examples\xvid_encraw.c(1977,18): message : рекомендуется использовать "%Id" в строке форматирования
+Q:\GITHub\xvidcore\examples\xvid_encraw.c(1977,18): message : рекомендуется использовать "%I64d" в строке форматирования
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIFileInit в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIFileExit в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIFileRelease в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIFileOpenA в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIFileGetStream в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIFileCreateStreamA в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamRelease в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamInfoA в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamReadFormat в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamSetFormat в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamRead в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamWrite в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamGetFrameOpen в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamGetFrame в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ AVIStreamGetFrameClose в функции encode_sequence.
+xvid_encraw.obj : error LNK2019: ссылка на неразрешенный внешний символ xvid_plugin_psnrhvsm в функции enc_init.
+Q:\GITHub\xvidcore\build\win32\x64\Debug\xvid_encraw.exe : fatal error LNK1120: неразрешенных внешних элементов: 16

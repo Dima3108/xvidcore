@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (libxvidcore_static.vcxproj, libxvidcore.vcxproj, xvid_decraw_static.vcxproj, xvid_decraw.vcxproj, xvid_encraw_static.vcxproj, xvid_encraw.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+cl : командная строка warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  xvid_bench.c
+Q:\GITHub\xvidcore\examples\xvid_bench.c(48,10): fatal error C1083: Не удается открыть файл включение: xvid.h: No such file or directory,

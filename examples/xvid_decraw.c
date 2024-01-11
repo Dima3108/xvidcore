@@ -42,11 +42,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#ifndef WIN32
-#include <sys/time.h>
-#else
+//#ifndef WIN32
+//#include <sys/time.h>
+//#else
 #include <time.h>
-#endif
+//#endif
 
 #include "xvid.h"
 
@@ -509,15 +509,15 @@ static void usage()
 static double
 msecond()
 {	
-#ifndef WIN32
+/*#ifndef WIN32
 	struct timeval  tv;
 	gettimeofday(&tv, 0);
 	return((double)tv.tv_sec*1.0e3 + (double)tv.tv_usec*1.0e-3);
-#else
+#else*/
 	clock_t clk;
 	clk = clock();
 	return(clk * 1000.0 / CLOCKS_PER_SEC);
-#endif
+//#endif
 }
 
 /*****************************************************************************

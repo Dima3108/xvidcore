@@ -1,0 +1,107 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (.\Debug\) содержит файлы, которые используются совместно с другим проектом (libxvidcore.vcxproj, xvid_bench.vcxproj, xvid_decraw.vcxproj, xvid_encraw.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Assembling Q:\GITHub\xvidcore\src\bitstream\x86_asm\cbp_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\bitstream\x86_asm\cbp_sse2.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\dct\x86_asm\fdct_mmx_ffmpeg.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\dct\x86_asm\fdct_mmx_skal.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\dct\x86_asm\fdct_sse2_skal.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\dct\x86_asm\idct_3dne.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\dct\x86_asm\idct_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\dct\x86_asm\idct_sse2_dmitry.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\colorspace_rgb_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\colorspace_yuv_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\colorspace_yuyv_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\deintl_sse.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\gmc_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_3dn.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_3dne.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_xmm.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\postprocessing_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\postprocessing_sse2.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\qpel_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\image\x86_asm\reduced_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\motion\x86_asm\sad_3dn.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\motion\x86_asm\sad_3dne.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\motion\x86_asm\sad_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\motion\x86_asm\sad_sse2.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\motion\x86_asm\sad_xmm.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\plugins\x86_asm\plugin_ssim-a.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_h263_3dne.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_h263_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_mpeg_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_mpeg_xmm.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\utils\x86_asm\cpuid.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\utils\x86_asm\interlacing_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\utils\x86_asm\mem_transfer_3dne.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+  Assembling Q:\GITHub\xvidcore\src\utils\x86_asm\mem_transfer_mmx.asm
+  "nasm" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): error MSB8066: пользовательская сборка для "..\..\src\bitstream\x86_asm\cbp_mmx.asm;..\..\src\bitstream\x86_asm\cbp_sse2.asm;..\..\src\dct\x86_asm\fdct_mmx_ffmpeg.asm;..\..\src\dct\x86_asm\fdct_mmx_skal.asm;..\..\src\dct\x86_asm\fdct_sse2_skal.asm;..\..\src\dct\x86_asm\idct_3dne.asm;..\..\src\dct\x86_asm\idct_mmx.asm;..\..\src\dct\x86_asm\idct_sse2_dmitry.asm;..\..\src\image\x86_asm\colorspace_rgb_mmx.asm;..\..\src\image\x86_asm\colorspace_yuv_mmx.asm;..\..\src\image\x86_asm\colorspace_yuyv_mmx.asm;..\..\src\image\x86_asm\deintl_sse.asm;..\..\src\image\x86_asm\gmc_mmx.asm;..\..\src\image\x86_asm\interpolate8x8_3dn.asm;..\..\src\image\x86_asm\interpolate8x8_3dne.asm;..\..\src\image\x86_asm\interpolate8x8_mmx.asm;..\..\src\image\x86_asm\interpolate8x8_xmm.asm;..\..\src\image\x86_asm\postprocessing_mmx.asm;..\..\src\image\x86_asm\postprocessing_sse2.asm;..\..\src\image\x86_asm\qpel_mmx.asm;..\..\src\image\x86_asm\reduced_mmx.asm;..\..\src\motion\x86_asm\sad_3dn.asm;..\..\src\motion\x86_asm\sad_3dne.asm;..\..\src\motion\x86_asm\sad_mmx.asm;..\..\src\motion\x86_asm\sad_sse2.asm;..\..\src\motion\x86_asm\sad_xmm.asm;..\..\src\plugins\x86_asm\plugin_ssim-a.asm;..\..\src\quant\x86_asm\quantize_h263_3dne.asm;..\..\src\quant\x86_asm\quantize_h263_mmx.asm;..\..\src\quant\x86_asm\quantize_mpeg_mmx.asm;..\..\src\quant\x86_asm\quantize_mpeg_xmm.asm;..\..\src\utils\x86_asm\cpuid.asm;..\..\src\utils\x86_asm\interlacing_mmx.asm;..\..\src\utils\x86_asm\mem_transfer_3dne.asm;..\..\src\utils\x86_asm\mem_transfer_mmx.asm" завершила работу с кодом 9009.

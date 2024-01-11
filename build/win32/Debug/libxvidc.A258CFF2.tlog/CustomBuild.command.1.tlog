@@ -1,0 +1,70 @@
+^Q:\GITHUB\XVIDCORE\SRC\BITSTREAM\X86_ASM\CBP_MMX.ASM
+nasm -o ".\Debug\cbp_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\bitstream\x86_asm\cbp_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\BITSTREAM\X86_ASM\CBP_SSE2.ASM
+nasm -o ".\Debug\cbp_sse2.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\bitstream\x86_asm\cbp_sse2.asm"
+^Q:\GITHUB\XVIDCORE\SRC\DCT\X86_ASM\FDCT_MMX_FFMPEG.ASM
+nasm -o ".\Debug\fdct_mmx_ffmpeg.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\dct\x86_asm\fdct_mmx_ffmpeg.asm"
+^Q:\GITHUB\XVIDCORE\SRC\DCT\X86_ASM\FDCT_MMX_SKAL.ASM
+nasm -o ".\Debug\fdct_mmx_skal.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\dct\x86_asm\fdct_mmx_skal.asm"
+^Q:\GITHUB\XVIDCORE\SRC\DCT\X86_ASM\FDCT_SSE2_SKAL.ASM
+nasm -o ".\Debug\fdct_sse2_skal.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\dct\x86_asm\fdct_sse2_skal.asm"
+^Q:\GITHUB\XVIDCORE\SRC\DCT\X86_ASM\IDCT_3DNE.ASM
+nasm -o ".\Debug\idct_3dne.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\dct\x86_asm\idct_3dne.asm"
+^Q:\GITHUB\XVIDCORE\SRC\DCT\X86_ASM\IDCT_MMX.ASM
+nasm -o ".\Debug\idct_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\dct\x86_asm\idct_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\DCT\X86_ASM\IDCT_SSE2_DMITRY.ASM
+nasm -o ".\Debug\idct_sse2_dmitry.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\dct\x86_asm\idct_sse2_dmitry.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\COLORSPACE_RGB_MMX.ASM
+nasm -o ".\Debug\colorspace_rgb_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ -I"Q:\GITHub\xvidcore\src\image\x86_asm\"\ "Q:\GITHub\xvidcore\src\image\x86_asm\colorspace_rgb_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\COLORSPACE_YUV_MMX.ASM
+nasm -o ".\Debug\colorspace_yuv_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ -I"Q:\GITHub\xvidcore\src\image\x86_asm\"\ "Q:\GITHub\xvidcore\src\image\x86_asm\colorspace_yuv_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\COLORSPACE_YUYV_MMX.ASM
+nasm -o ".\Debug\colorspace_yuyv_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ -I"Q:\GITHub\xvidcore\src\image\x86_asm\"\ "Q:\GITHub\xvidcore\src\image\x86_asm\colorspace_yuyv_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\DEINTL_SSE.ASM
+nasm -o ".\Debug\deintl_sse.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\deintl_sse.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\GMC_MMX.ASM
+nasm -o ".\Debug\gmc_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\gmc_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\INTERPOLATE8X8_3DN.ASM
+nasm -o ".\Debug\interpolate8x8_3dn.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_3dn.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\INTERPOLATE8X8_3DNE.ASM
+nasm -o ".\Debug\interpolate8x8_3dne.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_3dne.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\INTERPOLATE8X8_MMX.ASM
+nasm -o ".\Debug\interpolate8x8_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\INTERPOLATE8X8_XMM.ASM
+nasm -o ".\Debug\interpolate8x8_xmm.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\interpolate8x8_xmm.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\POSTPROCESSING_MMX.ASM
+nasm -o ".\Debug\postprocessing_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\postprocessing_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\POSTPROCESSING_SSE2.ASM
+nasm -o ".\Debug\postprocessing_sse2.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\postprocessing_sse2.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\QPEL_MMX.ASM
+nasm -o ".\Debug\qpel_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\qpel_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\IMAGE\X86_ASM\REDUCED_MMX.ASM
+nasm -o ".\Debug\reduced_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\image\x86_asm\reduced_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\MOTION\X86_ASM\SAD_3DN.ASM
+nasm -o ".\Debug\sad_3dn.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\motion\x86_asm\sad_3dn.asm"
+^Q:\GITHUB\XVIDCORE\SRC\MOTION\X86_ASM\SAD_3DNE.ASM
+nasm -o ".\Debug\sad_3dne.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\motion\x86_asm\sad_3dne.asm"
+^Q:\GITHUB\XVIDCORE\SRC\MOTION\X86_ASM\SAD_MMX.ASM
+nasm -o ".\Debug\sad_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\motion\x86_asm\sad_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\MOTION\X86_ASM\SAD_SSE2.ASM
+nasm -o ".\Debug\sad_sse2.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\motion\x86_asm\sad_sse2.asm"
+^Q:\GITHUB\XVIDCORE\SRC\MOTION\X86_ASM\SAD_XMM.ASM
+nasm -o ".\Debug\sad_xmm.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\motion\x86_asm\sad_xmm.asm"
+^Q:\GITHUB\XVIDCORE\SRC\PLUGINS\X86_ASM\PLUGIN_SSIM-A.ASM
+nasm -o ".\Debug\plugin_ssim-a.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\plugins\x86_asm\plugin_ssim-a.asm"
+^Q:\GITHUB\XVIDCORE\SRC\QUANT\X86_ASM\QUANTIZE_H263_3DNE.ASM
+nasm -o ".\Debug\quantize_h263_3dne.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_h263_3dne.asm"
+^Q:\GITHUB\XVIDCORE\SRC\QUANT\X86_ASM\QUANTIZE_H263_MMX.ASM
+nasm -o ".\Debug\quantize_h263_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_h263_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\QUANT\X86_ASM\QUANTIZE_MPEG_MMX.ASM
+nasm -o ".\Debug\quantize_mpeg_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_mpeg_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\QUANT\X86_ASM\QUANTIZE_MPEG_XMM.ASM
+nasm -o ".\Debug\quantize_mpeg_xmm.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\quant\x86_asm\quantize_mpeg_xmm.asm"
+^Q:\GITHUB\XVIDCORE\SRC\UTILS\X86_ASM\CPUID.ASM
+nasm -o ".\Debug\cpuid.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\utils\x86_asm\cpuid.asm"
+^Q:\GITHUB\XVIDCORE\SRC\UTILS\X86_ASM\INTERLACING_MMX.ASM
+nasm -o ".\Debug\interlacing_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\utils\x86_asm\interlacing_mmx.asm"
+^Q:\GITHUB\XVIDCORE\SRC\UTILS\X86_ASM\MEM_TRANSFER_3DNE.ASM
+nasm -o ".\Debug\mem_transfer_3dne.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\utils\x86_asm\mem_transfer_3dne.asm"
+^Q:\GITHUB\XVIDCORE\SRC\UTILS\X86_ASM\MEM_TRANSFER_MMX.ASM
+nasm -o ".\Debug\mem_transfer_mmx.obj" -f win32 -DWINDOWS -I..\..\src\ "Q:\GITHub\xvidcore\src\utils\x86_asm\mem_transfer_mmx.asm"

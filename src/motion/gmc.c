@@ -48,7 +48,7 @@ static uint32_t __inline
 log2bin(uint32_t value)
 {
 /* Changed by Chenm001 */
-#if !defined(_MSC_VER) || defined(ARCH_IS_X86_64)
+//#if !defined(_MSC_VER) || defined(ARCH_IS_X86_64)
   int n = 0;
 
   while (value) {
@@ -56,12 +56,12 @@ log2bin(uint32_t value)
 	n++;
   }
   return n;
-#else
+/*#else
   __asm {
 	bsr eax, value
 	inc eax
   }
-#endif
+#endif*/
 }
 
 /* 16*sizeof(int) -> 1 or 2 cachelines */

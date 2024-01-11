@@ -37,15 +37,15 @@
 #include <string.h>    /* for memset */
 #include <assert.h>
 
-#ifndef WIN32
-#include <sys/time.h>	/* for gettimeofday */
-#else
+//#ifndef WIN32
+//#include <sys/time.h>	/* for gettimeofday */
+//#else
 #include <time.h>
-#endif
+//#endif
 
 
+//#include "xvid.h"
 #include "xvid.h"
-
 // inner guts
 #include "portab.h"
 #include "dct/idct.h"

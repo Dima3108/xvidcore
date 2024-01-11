@@ -1,0 +1,4 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+cl : командная строка warning D9007: для "/Gm" требуется "/Zi или /ZI"; параметр пропущен
+  xvid_encraw.c
+Q:\GITHub\xvidcore\src\portab.h(141,1): fatal error C1189: #error:  You are trying to compile Xvid without defining address bus size.

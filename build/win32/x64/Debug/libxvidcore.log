@@ -1,0 +1,50 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (libxvidcore_static.vcxproj, xvid_bench.vcxproj, xvid_decraw_static.vcxproj, xvid_decraw.vcxproj, xvid_encraw_static.vcxproj, xvid_encraw.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+cl : командная строка warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  bitstream.c
+  cbp.c
+  mbcoding.c
+  fdct.c
+  idct.c
+  simple_idct.c
+  decoder.c
+  encoder.c
+  colorspace.c
+  font.c
+  image.c
+  interpolate8x8.c
+  postprocessing.c
+  qpel.c
+  reduced.c
+  estimation_bvop.c
+  estimation_common.c
+  estimation_gmc.c
+  estimation_pvop.c
+  estimation_rd_based.c
+  Создание кода...
+  Компиляция...
+  estimation_rd_based_bvop.c
+  gmc.c
+  motion_comp.c
+  sad.c
+  vop_type_decision.c
+  plugin_2pass1.c
+  plugin_2pass2.c
+  plugin_dump.c
+  plugin_lumimasking.c
+  plugin_psnr.c
+  plugin_single.c
+  plugin_ssim.c
+  mbprediction.c
+  quant_h263.c
+  quant_matrix.c
+  quant_mpeg.c
+  emms.c
+  mbtransquant.c
+  mem_align.c
+  mem_transfer.c
+  Создание кода...
+  Компиляция...
+  timer.c
+  xvid.c
+  Создание кода...
+  libxvidcore.vcxproj -> Q:\GITHub\xvidcore\build\win32\x64\Debug\libxvidcore.lib

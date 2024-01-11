@@ -109,8 +109,22 @@ static __inline void amiga_yield(void)
 # define pthread_join(t,s)		wait_for_thread(t,(long*)s)
 # define sched_yield()			snooze(0) /* is this correct? */
 
+/*#else
+# include <pthread.h>*/
 #else
-# include <pthread.h>
+# include <windows.h>
+# define pthread_t				HANDLE
+# define pthread_create(t,u,f,d) *(t)=CreateThread(NULL,0,f,d,0,NULL)
+# define pthread_join(t,s)		{ WaitForSingleObject(t,INFINITE); \
+									CloseHandle(t); } 
+# define sched_yield()			Sleep(0);
+static __inline int pthread_num_processors_np()
+{
+	DWORD p_aff, s_aff, r = 0;
+	GetProcessAffinityMask(GetCurrentProcess(), (PDWORD_PTR)&p_aff, (PDWORD_PTR)&s_aff);
+	for (; p_aff != 0; p_aff >>= 1) r += p_aff & 1;
+	return r;
+}
 #endif
 
 /*****************************************************************************
@@ -127,7 +141,7 @@ static __inline void amiga_yield(void)
 #    else
 #        define uintptr_t uint32_t
 #    endif
-#elif defined(ARCH_IS_64BIT)
+/*#elif defined(ARCH_IS_64BIT)
 #    define CACHE_LINE  64
 #    define ptr_t uint64_t
 #    define intptr_t int64_t
@@ -139,8 +153,18 @@ static __inline void amiga_yield(void)
 #    endif
 #else
 #    error You are trying to compile Xvid without defining address bus size.
+#endif*/
+#else
+#define CACHE_LINE  64
+#    define ptr_t uint64_t
+#    define intptr_t int64_t
+#    define _INTPTR_T_DEFINED
+#    if defined (_MSC_VER) && _MSC_VER >= 1300 && !defined(__INTEL_COMPILER)
+#        include <stdarg.h>
+#    else
+#        define uintptr_t uint64_t
+#    endif
 #endif
-
 /*****************************************************************************
  *  Things that must be sorted by compiler and then by architecture
  ****************************************************************************/
@@ -226,7 +250,8 @@ static __inline int64_t read_counter(void) { return __rdtsc(); }
 /*----------------------------------------------------------------------------
   | msvc GENERIC (plain C only) - Probably alpha or some embedded device
  *---------------------------------------------------------------------------*/
-#    elif defined(ARCH_IS_GENERIC)
+//#    elif defined(ARCH_IS_GENERIC)
+#else
 #        define BSWAP(a) \
 	((a) = (((a) & 0xff) << 24)  | (((a) & 0xff00) << 8) | \
 	 (((a) >> 8) & 0xff00) | (((a) >> 24) & 0xff))
@@ -241,8 +266,8 @@ static __inline int64_t read_counter(void)
   | msvc Not given architecture - This is probably an user who tries to build
   | Xvid the wrong way.
  *---------------------------------------------------------------------------*/
-#    else
-#        error You are trying to compile Xvid without defining the architecture type.
+/*#    else
+#        error You are trying to compile Xvid without defining the architecture type.*/
 #    endif
 
 

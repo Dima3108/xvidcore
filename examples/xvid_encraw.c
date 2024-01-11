@@ -44,15 +44,15 @@
 #include <string.h>
 #include <math.h>
 #include <ctype.h>
-#ifndef WIN32
+/*#ifndef WIN32
 #include <sys/time.h>
-#else
+#else*/
 #include <windows.h>
 #include <vfw.h>
 #include <time.h>
 #define XVID_AVI_INPUT
 #define XVID_AVI_OUTPUT
-#endif
+//#endif
 
 #include "xvid.h"
 #include "portab.h" /* for pthread */
@@ -328,7 +328,8 @@ static int  enc_main(void *enc_handle,
 					 int *stats_length,
 					 int stats[3],
 					 int framenum);
-static void encode_sequence(enc_sequence_data_t *h);
+//static 
+void encode_sequence(enc_sequence_data_t *h);
 
 /* Zone Related Functions */
 static void apply_zone_modifiers(xvid_enc_frame_t * frame, int framenum);
